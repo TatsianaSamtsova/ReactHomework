@@ -1,5 +1,6 @@
 {
-  "name": "simple-react-homeworks",
+  "name": "ReactHomework",
+  "homepage": "https://TatsianaSamtsova.github.io/ReactHomework",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.0",
     "typescript-plugin-css-modules": "^3.2.0",
     "typings-for-css-modules-loader": "^1.7.0"
   }
