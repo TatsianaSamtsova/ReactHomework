@@ -1,6 +1,5 @@
 {
   "name": "ReactHomework",
-  "homepage": "https://TatsianaSamtsova.github.io/ReactHomework",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,6 +17,7 @@
     "typescript": "~3.7.2",
     "uuid": "^8.3.2"
   },
+  "homepage": "https://TatsianaSamtsova.github.io/ReactHomework",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
