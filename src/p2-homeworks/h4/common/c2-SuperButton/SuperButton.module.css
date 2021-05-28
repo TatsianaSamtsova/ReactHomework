@@ -1,0 +1,47 @@
+.default {
+    outline: none;
+
+}
+
+.button.red {
+    background: red;
+}
+.button {
+    text-decoration: none;
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    line-height: 22px;
+    border-radius: 25px;
+    margin: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-align: center;
+       font-weight: 720;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    position: relative;
+
+}
+.button:hover {
+    background: #b0aeae;
+    box-shadow: 0 10px 20px rgba(152, 159, 156, 0.3);
+    color: white;
+    transform: translateY(-7px);
+
+}
+.button.red:hover {
+    background: red;
+    box-shadow: 0 10px 20px rgb(219, 114, 96, 0.3);
+
+}
+.button:disabled {
+    background: white;
+    box-shadow: none;
+    color: darkgray;
+    transform: none;
+
+
+}

@@ -1,0 +1,41 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.content{
+    padding: 10px;
+    background-color: rgba(0, 120, 201, 0.5);
+    border-radius: 5px 5px 5px 0px;
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: indianred;
+}
+.text {
+    min-width: 150px;
+    max-width: 300px;
+    -ms-word-wrap: break-word;
+    color: azure;
+    word-wrap: break-word;
+}
+.time {
+    display: flex;
+    justify-content: flex-end;
+    color: lavender;
+}
+.angle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0px  10px;
+    border-color:  transparent rgba(0, 120, 201, 0.5) transparent  transparent ;
+    display: inline-block;
+    vertical-align: top;
+}

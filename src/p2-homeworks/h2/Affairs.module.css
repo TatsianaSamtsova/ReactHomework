@@ -1,0 +1,38 @@
+.someClass {
+
+
+}
+.button {
+    text-decoration: none;
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    line-height: 22px;
+    border-radius: 25px;
+    margin: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 720;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    position: relative;
+
+}
+.button:hover {
+    background: #b0aeae;
+    box-shadow: 0 10px 20px rgba(152, 159, 156, 0.3);
+    color: white;
+    transform: translateY(-7px);
+
+}
+.button.del {
+    width: 35px;
+}
+.affair {
+    display: flex;
+}
